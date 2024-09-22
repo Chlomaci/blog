@@ -1,0 +1,13 @@
+.title{
+  min-height: 10vw;
+  border-top: solid 1px rgb(0, 0, 0, .3);
+  border-bottom: solid 1px rgb(0, 0, 0, .3);
+  margin-top: 50px;
+  padding: 60px 0px;
+  &__name{
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: 15.2375rem;
+    text-align: center;
+  }
+}

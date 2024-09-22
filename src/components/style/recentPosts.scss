@@ -1,0 +1,18 @@
+
+.recent{
+  margin-top: 60px;
+  width: 100%;
+  &__posts{
+    display: grid;
+    grid-template-columns: minmax(37rem, auto) minmax(37rem, auto);
+    column-gap: 2rem;
+    grid-template-rows: 12.5rem 12.5rem 16rem;
+    row-gap: 2rem;
+    grid-template-areas:
+    'first second'
+    'first third'
+    'fourth fourth';
+  }
+}
+
+

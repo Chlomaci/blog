@@ -1,0 +1,17 @@
+.tags{
+  display: flex;
+  //justify-content: space-between;
+}
+
+.tag{
+  margin-right: 5px;
+  width: auto;
+  height: 2rem;
+  padding: 0.325rem 0.625rem;
+  font-weight: 500;
+  border-radius: 16px;
+  background-color: rgb(0, 0, 0, 0.05);
+  &:hover{
+    cursor: pointer;
+  }
+}

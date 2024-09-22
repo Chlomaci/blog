@@ -1,5 +1,6 @@
 {
   "compilerOptions": {
+    "types": ["firebase"],
     "target": "es5",
     "lib": [
       "dom",

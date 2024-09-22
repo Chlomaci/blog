@@ -1,0 +1,40 @@
+#post1{
+  grid-area: first;
+}
+#post2{
+  grid-area: second;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  .post__img{
+    width: 48%;
+    max-height: 100%;
+  }
+  .post__data{
+    max-width: 50%;
+  }
+}
+#post3{
+  grid-area: third;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  .post__img{
+    width: 48%;
+    max-height: 100%;
+  }
+  .post__data{
+    max-width: 50%;
+  }
+}
+#post4{
+  display: grid;
+  grid-template-columns: 49% 50%;
+  grid-template-rows: 100%;
+  column-gap: 2rem;
+  grid-area: fourth;
+  .post__img{
+    width: 100%;
+    height: 100%;
+  }
+}

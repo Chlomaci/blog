@@ -1,0 +1,22 @@
+.header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  font-size: 20px;
+  &__name{
+    font-weight: 600;
+  }
+  &__menu{
+    display: flex;
+    width: 17%;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+  }
+  &__item:hover{
+    cursor: pointer;
+  }
+}
+
